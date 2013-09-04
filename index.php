@@ -63,7 +63,7 @@
 		echo '<li>Turnusmäßig wieder tun: ', date($dateformat, $todothen), '</li>';
 		echo '<li>Basispunktzahl: ', $basepoints, '</li>';
 		echo '<li>Derzeitiger Punktwert: <b>', $pointsnow, '</b></li>';
-		echo '<a href="do.php?id=', $i, '&points=', $pointsnow, '">';
+		echo '<a href="do.php?id=', $i, '&points=', max($pointsnow,$basepoints), '">';
 		if ($isdue) {
 			echo 'Hab ich gerade getan';
 		} else {
