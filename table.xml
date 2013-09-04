@@ -1,0 +1,38 @@
+<table>
+	<!-- neue Tasks nur am ENDE der Datei hinzufügen, da die ID (und somit der Eventdateiname) durch die Position in dieser Datei bestimmt wird! -->
+	<task>
+		<name>Müll rausbringen</name>
+		<points>1</points>
+		<interval>86400</interval> <!-- 1 Tag = 24*60*60 Sekunden -->
+	</task>
+	<task>
+		<name>Boden wischen (Laminat)</name>
+		<points>15</points>
+		<interval>1209600</interval> <!-- 2 Wochen -->
+	</task>
+	<task>
+		<name>Bad putzen (inkl. Klo!)</name>
+		<points>50</points>
+		<interval>1209600</interval>
+	</task>
+	<task>
+		<name>Werkstatt aufräumen und kehren</name>
+		<points>10</points>
+		<interval>1209600</interval>
+	</task>
+	<task>
+		<name>Plenarsaal aufräumen und kehren</name>
+		<points>5</points>
+		<interval>604800</interval>
+	</task>
+	<task>
+		<name>Küche aufräumen und kehren</name>
+		<points>5</points>
+		<interval>604800</interval>
+	</task>
+	<task>
+		<name>Kühlschrank putzen und Küche intensiv reinigen</name>
+		<points>50</points>
+		<interval>7776000</interval>
+	</task>
+</table>
